@@ -8,3 +8,7 @@ set tabstop=4
 set shiftwidth=4
 set number
 
+let g:coc_filetype_map = { 'xhtml': 'html' }
+
+hi FgCocHintFloatBgCocFloating ctermfg=white ctermbg=Magenta
+
