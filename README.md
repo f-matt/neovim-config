@@ -21,3 +21,10 @@ $ nvim
 :CocInstal coc-java
 ```
 
+# Tmux
+
+* Fix esc key delay:
+
+```sh
+$ echo 'set -sg escape-time 0' >> ~/.tmux.conf
+```
