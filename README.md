@@ -27,4 +27,5 @@ $ nvim
 
 ```sh
 $ echo 'set -sg escape-time 0' >> ~/.tmux.conf
+$ echo 'set -g mouse on' >> ~/.tmux.conf
 ```
